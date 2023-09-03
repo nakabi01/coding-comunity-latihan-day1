@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+
+}
+#profile-pic{
+    width: 30%;
+    position: absolute;
+    top: 32%;
+    right: 10px;
+    cursor: pointer;
+    transform: translate(-70%, -58%) perspective(200px) rotate(30deg) skew(20deg, 20deg);
+}
+#profile-pic img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#portfolio {
+    width: 450px;
+    position: absolute;
+    top: 30%;
+    left: 250px;
+    color: #345;
+    transform: translate(-50%);
+}
+#portfolio h1{
+    font-size: 50px;
+}
+#portfolio h2{
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 100px;
+    margin: 20px 0 20px;
+}
+
+.button{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #345;
+    border: 2px solid #345;
+    outline: none;
+}
+
+#portfolio-pic .shadow1{
+    top: 30px;
+    right: 32px;
+    opacity: 0.5;
+    filter: blur(2px);
+}
+.shadow2{
+    top: 60px;
+    right: 40px;
+    opacity: 0.5;
+    filter: blur(2px);
+}
